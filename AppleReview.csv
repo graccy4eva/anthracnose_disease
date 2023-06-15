@@ -1,0 +1,235 @@
+S/N,Authors/Year,Title,Framework,Dataset (Quantity and Source),Results,Gaps
+*1.,"Baranwal, S., Khandelwal, S., & Arora, A. (2019, February).",Deep learning convolutional neural network for apple leaves disease detection.,Convolutional Neural Networks (CNN) framework for classifying and predicting Apple diseases observed.,,,
+2,"Jiang, P., Chen, Y., Liu, B., He, D., & Liang, C. (2019).",Real-time detection of apple leaf diseases using deep learning approach based on improved convolutional neural networks.,"Convolutional Neural Networks (CNN) - proposed INAR-SSD framework for classifying and predicting Apple diseases: Alternaria leaf spot, Brown spot, Mosaic, Grey spot, and Rust.","A total of 2029 images of diseased apple leaves were collected from the laboratory, real apple field and Apple Experiment Station of Northwest A&F University in Baishui county, Shaanxi province, China. By applying an image processing technique, a total of 26,377 disease images were generated (Alternaria leaf spot -5343 images, Brown spot - 5655 images, Mosaic - 4875 images, Grey spot - 4810 images, and Rust - 5694 images). The datasets were split 75% for training and 25% for testing;","The Precision Accuracy values are:
+Alternaria leaf spot (76%), Brown spot (80%), Mosaic (77%), Grey spot (71%), and Rust (92%).",The unbalanced datasets might have relatively impacted on the precision accuracy across these diseases.
+3,"Bansal, P., Kumar, R., & Kumar, S. (2021).",Disease detection in apple leaves using deep convolutional neural network.,"An ensemble model (consisting of pre-trained DenseNet121, EfficientNetB7, and EfficientNet NoisyStudent) for classifying and predicting Apple diseases: cedar apple rust, multiple diseases, healthy leaves, and apple scab.","A total of 3642 images of apple leaves are distributed among four classes of diseases: cedar apple rust, multiple diseases, healthy leaves, and apple scab. The datasets were collected from the Plant Pathology and Plant-Microbe Biology Section of Cornell University. 85% of the images were used for training, and the rest 15% of the images were used for validation.","Precision Accuracy values: cedar apple rust (96%), multiple diseases (90%), healthy leaves (100%), and apple scab (93%).","The study focused on only four classes of the images. Hence, the model is limited in its prediction strength."
+4,"Zhong, Y., & Zhao, M. (2020).",Research on deep learning in apple leaf disease recognition.,"Based on DenseNet-121 deep convolution network, three methods of regression, multi-label classification and focus loss function frameworks (compared to the single-label multi-classification method with cross entropy loss function) were proposed to classify and predict six apple leaf diseases:Healthy Apple, General Apple Scab, Serious Apple Scab, Apple Gray Spot, General Cedar Apple Rust and Serious Cedar Apple Rust.",Datasets collected from AI-Challenger-Plant-Disease-Recognition were de-duplicated to get a total of 2462 images.,"Precision accuracy: 
+
+cross entropy loss function (less performance compared to three methods of regression, multi-label classification and focus loss function)
+Healthy (98%)
+General Apple Scab (67%)
+Serious Apple Scab (75%)
+Apple Gray Spot (98%)
+General Cedar Apple Rust (89%)
+Serious Cedar Apple Rust (71%), 
+
+Loss function under 
+Gamma=2.0
+Healthy (99%)
+General Apple Scab (76%)
+Serious Apple Scab (76%)
+Apple Gray Spot (94%)
+General Cedar Apple Rust (86%)
+Serious Cedar Apple Rust (67%), 
+
+Loss function under 
+Gamma=1.0
+Healthy (98%)
+General Apple Scab (70%)
+Serious Apple Scab (81%)
+Apple Gray Spot (97%)
+General Cedar Apple Rust (87%)
+and Serious Cedar Apple Rust (100%)
+
+Loss function under 
+Gamma=0.1
+Healthy (99%)
+General Apple Scab (72%)
+Serious Apple Scab (81%)
+Apple Gray Spot (95%)
+General Cedar Apple Rust (91%)
+and Serious Cedar Apple Rust (100%)
+
+Regression Classification. Threshold 1.
+Healthy (98%)
+General Apple Scab (73%)
+Serious Apple Scab (71%)
+Apple Gray Spot (97%)
+General Cedar Apple Rust (87%)
+and Serious Cedar Apple Rust (100%)
+
+Regression Classification. Threshold 2.
+Healthy (98%)
+General Apple Scab (76%)
+Serious Apple Scab (74%)
+Apple Gray Spot (98%)
+General Cedar Apple Rust (90%)
+and Serious Cedar Apple Rust (100%)
+
+multi-label classification
+Healthy (99%)
+General Apple Scab (71%)
+Serious Apple Scab (74%)
+Apple Gray Spot (98%)
+General Cedar Apple Rust (91%)
+and Serious Cedar Apple Rust (86%)",N/A
+*5.,"Bi, C., Wang, J., Duan, Y., Fu, B., Kang, J. R., & Shi, Y. (2022).",MobileNet based apple leaf diseases identification.,This is not relevant because it does not explicitly state the prediction across the diseases,,,
+6,"Chao, X., Sun, G., Zhao, H., Li, M., & He, D. (2020).",Identification of apple tree leaf diseases based on deep learning models.,"Deep Convolutional Neural Network (DCNN) framework for classifying and predicting Apple Diseases: Alternaria leaf spot, Brown spot, Mosaic, Grey spot, Rust and Healthy.","A total of 2970 images were collected from laboratories and cultivation fields. The images increased to 24976 after data augmentation: Alternaria leaf spot (original dataset - 279 and augmentation - 2366), Brown spot (original dataset - 540 and augmentation - 4536), Mosaic (original dataset - 879 and augmentation - 7378), Grey spot (original dataset - 430 and augmentation - 3612), Rust (original dataset - 430 and augmentation - 3612), and Healthy (original dataset - 412 and augmentation - 3472).","The Precision Accuracy values: 
+Alternaria leaf spot (96%), Brown spot (99%), Mosaic (100%), Grey spot (98%), Rust (99%) and Healthy (99%)",N/A
+7,"Liu, B., Zhang, Y., He, D., & Li, Y. (2017).",Identification of apple leaf diseases based on deep convolutional neural networks.,"AlexNet framework for classifying and predicting Apple diseases: Mosaic, Rust, Brown spot, and Alternaria leaf spot.","A total of 13,689 images were collected in Qingyang County, Gansu Province, China and Baishui County, Shanxi Province, China: Alternaria leaf spot (Training - 3150 and Testing - 750), Mosaic (Training - 2513 and Testing - 763), Rust (Training - 1926 and Testing - 440), Brown Spot (Training - 3299 and Testing - 848)","Prediction accuracies: Alternaria leaf spot (91.87%), Mosaic (100%), Rust (99.32%) and Brown Spot (99.29%)",Datasets collected were limited due to the restriction of biological growth laws and the current season in which the apple leaves have fallen. This might have reduced the accuracy.
+8,"Militante, S. V., Gerardo, B. D., & Dionisio, N. V. (2019, October).",Plant leaf detection and disease recognition using deep learning.,"CNN model for classifying and predicting diseases of apple, corn, grapes, potato, sugarcane, and tomato.","A total of 35,000 images of apple, corn, grapes, potato, sugarcane, and tomato (healthy plant leaves and infected with diseases). These datasets were collected from Plant Village.",Prediction accuracies: black rot disease of Apple (100%) and a healthy Apple leaf (100%),N/A
+*9.,"Agarwal, M., Kaliyar, R. K., Singal, G., & Gupta, S. K. (2019, July).",FCNN-LDA: A Faster Convolution Neural Network model for Leaf Disease identification on Apple's leaf dataset.,No explicit explanation on how the model predicted Apple diseases individually.,,,
+10,"Ahmed, A. A., & Reddy, G. H. (2021).",A mobile-based system for detecting plant leaf diseases using deep learning.,"Convolutional Neural networks (CNN) framework for classifying and predicting diseases for Apple, Tomatoes, Grape, Potatoes and other plants:","A total of 96,206 images of plant leaves of healthy and infected plants were collected from Kaggle, Plant Village and Google Web Scraper. The distribution of the datasets for Apple Diseases are: Apple scab (Training - 2016, Validation - 504 and Testing - 209), Apple Black rot (Training - 1987, Validation - 497 and Testing - 246), Apple Cedar apple rust (Training - 1760, Validation - 440 and Testing - 220) and Apple healthy (Training - 2008, Validation - 502 and Testing - 187)","Precision Accuracy values:
+Apple scab (95%), Apple Black rot (93%), Apple Cedar apple rust (98%) and Apple healthy (97%).",N/A
+*11.,"Francis, M., & Deisy, C. (2019, March).",Disease detection and classification in agricultural plants using convolutional neural networks—a visual understanding.,No explicit analysis on the different diseases related to Apple and Tomatoes observed,,,
+*12.,"Ferentinos, K. P. (2018).",Deep learning models for plant disease detection and diagnosis.,No explicit analysis on the different diseases related to Apple and other plants observed,,,
+*13.,"Yu, H. J., & Son, C. H. (2019).",Apple leaf disease identification through region-of-interest-aware deep convolutional neural network.,No explicit analysis on the different diseases related to Apple plants observed,,,
+14,"Chakraborty, S., Paul, S., & Rahat-uz-Zaman, M. (2021, January).",Prediction of apple leaf diseases using multiclass support vector machine.,"Multiclass SVM framework to classify and predict Apple diseases: Black Rot, Cedar Apple Rust and Healthy apple leaves.",A total of 500 datasets were collected from : 329 images were classified as diseased (Black Rot and Cedar Apple Rust) and 171 images are healthy apple leaves. The training datasets were 325 images and 175 images were used for testing.,"Precision Accuracy values:
+
+Black Rot (93%), Cedar Apple Rust (97%) and Healthy apple leaves (98%).",The distribution of disease across datasets Black Rot and Cedar Apple Rust not provided. The limited datasets for the study might not make the model generalizable.
+*15.,"Chohan, M., Khan, A., Chohan, R., Katpar, S. H., & Mahar, M. S. (2020).",Plant disease detection using deep learning.,No explicit analysis on the different diseases related to Apple plants observed,,,
+16,"Yu, H., Cheng, X., Chen, C., Heidari, A. A., Liu, J., Cai, Z., & Chen, H. (2022).",Apple leaf disease recognition method with improved residual network.,"MSO-ResNet (multistep optimization ResNet) framework for classifying and predicting Apple diseases: Powdery mildew, Alternaria leaf spot, scab, rust, Alternaria leaf spot and rust, and healthy.","A total of 11,397 images were collected from Kaggle..The datasets were split 80% training (9118 images) and 20% testing (2279 images)","Precision Accuracy Values:
+Powdery mildew (97%)
+Alternaria leaf spot (97%), scab (95%), rust (96%), Alternaria leaf spot and rust (93%), and healthy (93%).","Datasets not well refined to cater for the characteristics of spots in different stages of diseases which likely affect the model’s performance. Also, the size and the speed are relatively large and slow."
+*17.,"Tian, Y., Yang, G., Wang, Z., Li, E., & Liang, Z. (2019).",Detection of apple lesions in orchards based on deep learning methods of cyclegan and yolov3-dense.,No explicit analysis on the different diseases related to Apple plants observed,,,
+18,"Sun, H., Xu, H., Liu, B., He, D., He, J., Zhang, H., & Geng, N. (2021).",MEAN-SSD: A novel real-time detector for apple leaf diseases using improved light-weight convolutional neural networks.,"CNN framework (MEAN-SSD(Mobile End AppleNet based SSD algorithm) for classifying and predicting Apple diseases: 
+Alternaria blotch, Brown spot, Mosaic, Grey spot, and Rust. Datasets were collected from BaiShui experimental apple station, LuoChuan experimental apple station and QingCheng experimental apple station in Northwest A&F University.","A total of 2,230 apple leaf disease images were originally collected. These images were increased through data augmentation to 26,767 images: Alternaria blotch (Training - 2832, Validation - 944 and Testing - 944); Brown spot (Training - 3324, Validation - 1104 and Testing - 1104);
+Gray spot
+(Training - 3230, Validation - 1075 and Testing - 1075); Mosaic (Training - 3155, Validation - 1005 and Testing - 1005) and Rust (Training - 3560, Validation - 1205 and Testing - 1205)","Precision Accuracy values:
+Alternaria blotch (99%); Brown spot (98%);Gray spot (97%); Mosaic (96%) and Rust (98%)","The technique used still required a significant amount of human effort for annotation. Though there was a repeated verification of the annotation process, this slows down the classification task."
+19,"Yan, Q., Yang, B., Wang, W., Wang, B., Chen, P., & Zhang, J. (2020).",Apple leaf diseases recognition based on an improved convolutional neural network.,"An improved convolution neural network (CNN) model based on VGG16 for classifying and predicting Apple diseases: Scab, frogeye spot, and cedar rust.","A total of 2446 pictures were collected from the the “2008 ‘AI Challenger’ Global Challenge” dataset, where 1340 of them are healthy (Training - 1172 and Testing - 168 ), 411 are scab (Training - 360 and Testing - 51), 487 are frogeye spot (Training - 427 and Testing - 60), and 208 are cedar rust (Training - 182 and Testing - 26)","The Precision Accuracy values:
+
+Healthy: 99%
+Scab: 98%
+Frogeye Spot: 100%
+Cedar rust: 100%",N/A
+20,"Omrani, E., Khoshnevisan, B., Shamshirband, S., Saboohi, H., Anuar, N. B., & Nasir, M. H. N. M. (2014).",Potential of radial basis function-based support vector regression for apple disease detection.,"Artificial Neural Networks (ANNs), Support Vector machines (SVMs) and Support Vector Regression Polynomial-based (SVR_Poly) to classify and predict Apple diseases: Apple leaf miner pest, Apple black spot, and Alternaria spot.","A total of 320 samples of three classes of leaves from Apple leaf miner pest (62), Apple black spot (160) and Alternaria (98) were collected from an agricultural research institution at University of Tehran.","Prediction accuracies:
+
+ANN
+Apple leaf miner pest (52%) 
+Apple black spot (54%)
+Alternaria spot (65%).
+
+SVM
+Apple leaf miner pest (99%) 
+Apple black spot (100%)
+Alternaria spot (100%).
+
+SVR-poly
+Apple leaf miner pest (93%) 
+Apple black spot (54%)
+Alternaria spot (66%).",Generalization based on the small sample datasets is the limitation of the three models. There would be a need to extend the datasets and retest.
+21,"Chuanlei, Z., Shanwen, Z., Jucheng, Y., Yancui, S., & Jia, C. (2017).",Apple leaf disease identification using genetic algorithm and correlation based feature selection method.,"Genetic Algorithm (GA), Correlation based Feature Selection (CFS) and SVM classifier compared to K-means-based Segmentation and Neural-Networks-based Classification (KMS+NNC), and Color Feature Extraction of tomato leaf diseases (CFE) for classifying and predicting Apple diseases: Powdery Mildew, Mosaic and Rust.","A total of 90 diseased leaf images were collected from the research location in China: Powdery Mildew(30), Mosaic (30) and Rust (30).","Precision Accuracy values for the proposed SVM classifier:
+Powdery Mildew ( 95%), Mosaic (94%) and Rust (94%)","The datasets collected were in a controlled environment, this compared to naturally illuminated environments might provide basis for generalization. Also, the limited amount of datasets would require further research with more to generalize the model."
+22,"Wang, G., Sun, Y., & Wang, J. (2017).",Automatic image-based plant disease severity estimation using deep learning.,"Deep learning (VGG16 model) framework for classifying and predicting Apple disease: apple black rot in its early, middle and end stages together with healthy apple images.","A total of 2,086 images of healthy and diseased crops were collected from PlantVillage: healthy leaves (1644 images), early-stage (137 images), middle-stage (180 images), and end-stage disease (125 images). The early stage, middle stage, and end stage were divided into 80% of the training dataset and 20% test dataset. The healthy-stage leaves were split into 110 by 12 clustered images as training datasets and 27 by 12 clustered images as testing datasets.","Precision Accuracy values: 
+Healthy (100%)
+Early stage (84%)
+Middle stage (86%)
+End stage (95%)",Healthy leaves are much more than the diseased leaves and might be why the accuracy is more biased. There would be the need to increase the datasets to further improve the accuracy.
+23,"Rehman, Z. U., Khan, M. A., Ahmed, F., Damaševičius, R., Naqvi, S. R., Nisar, W., & Javed, K. (2021).",Recognizing apple leaf diseases using a novel parallel real‐time processing framework based on MASK RCNN and transfer learning: An application for smart agriculture.,"Mask RCNN for segmentation and ESDA classifier for classifying and predicting Apple diseases: Apple scab, Black rot, Cedar rust and Healthy.","A total of 3,171 images were collected from
+PlantVillage: Apple scab (Training - 441 and Testing - 189), Black rot (Training - 435 and Testing - 186), Cedar rust (Training - 193 and Testing - 82) and Healthy (Training - 1152 and Testing - 493).","Precision Accuracy values for ESDA at k folds cross validation: 5, 10, 15 and 20 respectively:
+
+Apple scab performed more at k folds 10, 15 and 20 (99%), Black rot performed more at k =10 and 15 (99%), Cedar rust performed more at k=5 and 20 (100%) and Healthy performed more at k = 10 and 15 (98%) .",The small number of datasets could have resulted in the inconsistencies in the accuracies across the k-folds.
+*24.,"Adedoja, A., Owolawi, P. A., & Mapayi, T. (2019, August).",Deep learning based on nasnet for plant disease recognition using leave images.,No explicit analysis on the different diseases related to Apple plants observed,,,
+*25.,"Tembhurne, J. V., Gajbhiye, S. M., Gannarpwar, V. R., Khandait, H. R., Goydani, P. R., & Diwan, T. (2023).",Plant disease detection using deep learning based Mobile application.,No explicit analysis on the different diseases related to Apple plants observed,,,
+26,"Thakur, P. S., Sheorey, T., & Ojha, A. (2023).",VGG-ICNN: A Lightweight CNN model for crop disease identification.,"Convolutional Neural Network ‘VGG-ICNN’ framework for classifying and predicting Apple diseases (Healthy, Rust, Scab, and Multiple Disease) and other plants:Maize, and Rice.","Apple datasets were collected from Kaggle. A total of 1821 images were extracted for the Apple diseases: Healthy (516), Rust (622), Scab (592) and Multiple Disease (91)","Precision Accuracy values: 
+
+Healthy (96%), 
+Rust (96%), 
+Scab (96%), 
+Multiple Disease (56%)",The proposed model has higher FLOPs (Floating Point Operations) which is possibly the reason for a bottleneck for real-time deployment.
+*27.,"Lee, S. H., Goëau, H., Bonnet, P., & Joly, A. (2020).",New perspectives on plant disease characterization based on deep learning.,No explicit analysis on the different diseases related to Apple plants observed,,,
+28,"Atila, Ü., Uçar, M., Akyol, K., & Uçar, E. (2021).",Plant leaf disease classification using EfficientNet deep learning model.,"EfficientNet (B5 and B4) deep learning framework for classifying and predicting Apple diseases: Apple scab, Apple Black rot, Apple Cedar apple rust and Healthy.","A total of 3172 images are collected from PlantVillage for Apple diseases: Healthy (1645)
+Apple Cedar apple rust (276) Apple scab (630) and Apple Black rot (621)","Precision Accuracy values B5 and B4:
+
+Apple scab (100%)
+Apple Black rot (100%)
+Apple Cedar apple rust (100%)
+Healthy (100%)",N/A
+29,"Zhao, Y., Chen, Z., Gao, X., Song, W., Xiong, Q., Hu, J., & Zhang, Z. (2021).",Plant disease detection using generated leaves based on DoubleGAN.,"DoubleGAN (Double Generative Adversarial Network) to generate high-resolution unhealthy plant images compared to healthy leaves. Hence, comparing VGG16, ResNet50 and DenseNet121 frameworks in classifying and predicting Healthy leaves from Apple and other plants (Corn, Grape, Potato and Tomato) compared to diseased Tomatoes.","A total of 3173 Healthy Apple leaves were collected from PlantVillage. Eighty (80) percent were used as the training set and 20 percent were used as the testing set. The datasets were tested in three different ways: original datasets (3,173), rotation and transformation (4,000), and DoubleGAN transformation (4,000)","Precision Accuracy values for Healthy Apple:
+Original dataset
+VGG16 (98%), ResNet50 (99%) and DenseNet121 (100%) 
+
+Rotation and Transformation dataset
+VGG16 (98%), ResNet50 (99%) and DenseNet121 (100%) 
+
+DoubleGAN dataset
+VGG16 (99%), ResNet50 (99%) and DenseNet121 (99%)",DoubleGANs can be used to expand the unbalanced dataset. Though there was no significant difference in the Precision Accuracy values with Apple plant compared to Tomatoes. The research should be intensified to justify its significance.
+30,"Saleem, M. H., Khanchi, S., Potgieter, J., & Arif, K. M. (2020).",Image-based plant disease identification by deep learning meta-architectures.,"Three (3) Deep Learning frameworks::
+1. Faster Region-based Convolutional Neural Network (RCNN)
+2. Single Shot MultiBox Detector (SSD)
+3. Region-based Fully Convolutional Networks (RFCN)
+
+For classifying and predicting diseases of Apple: Apple Scab, Apple Black Rot, Apple Cedar Rust and Healthy, and other plants (Corn, Grape, Cherry, Blueberry, Orange, Peach, Pepper, Potato, Raspberry, Soybeans, Squash, Strawberry, and Tomato).","A total of 3,171 apple datasets were collected from PlantVillage:
+Apple Scab (Training - 441, Validation - 126 and Testing - 63)
+Apple Black Rot (Training - 435, Validation - 124 and Testing - 63)
+Apple Cedar Rust (Training - 192, Validation - 55 and Testing - 28)
+Healthy (Training - 1152, Validation - 329 and Testing - 165)","Based on the consistencies in the SGD with Momentum optimizer
+Single Shot MultiBox Detector (SSD): Apple Scab (27%), Apple Black Rot (45%), Apple Cedar Rust (45%), Healthy (91%) 
+Faster Region-based Convolutional Neural Network (RCNN): Apple Scab (61%), Apple Black Rot (42%), Apple Cedar Rust (35%), Healthy (43%) 
+
+Region-based Fully Convolutional Networks (RFCN) for ResNet-101: Apple Scab (91%), Apple Black Rot (47%), Apple Cedar Rust (90%), Healthy (91%)","The unbalanced datasets could have impacted on the Precision Accuracy values across the three different frameworks: Faster RCNN, SSD and RFCN"
+31,"Turkoglu, M., Hanbay, D., & Sengur, A. (2019).",Multi-model LSTM-based convolutional neural networks for detection of apple diseases and pests.,"Multi-model LSTM-based Pre-trained Convolutional Neural Networks (MLP-CNNs) framework for classifying and predicting Apple diseases: apple disease scab (Venturia Inaequalis), Brown rot (Monilinia laxa), Woolly apple aphid (Eriosoma Lanigerum) and he green apple aphid (Aphis pomi Deg).","A total of of 1,192 datasets were collected from Malatya and Bingol cities of Turkey: Venturia Inaequalis (422), Monilinialaxa (255), EriosomaLanigerum (359) and Aphis pomi Deg. (156)","Precision Accuracy values:
+Venturia Inaequalis - Scab disease (100%), Monilinialaxa - Brown Rot (99%), EriosomaLanigerum - Woolly apple aphid (100%) and Aphis pomi Deg. (96%)",It takes time to train LSTM classifier with high dimensional feature No optimal parameters of LSTM were taken into consideration
+32,"Park, K., ki Hong, Y., hwan Kim, G., & Lee, J. (2018).",Classification of apple leaf conditions in hyper-spectral images for diagnosis of Marssonina blotch using mRMR and deep neural network.,"Convolutional Neural Network (CNN) followed by a Fully Connected Network (FCN) framework for classifying and predicting Apple disease: apple Marssonina blotch (AMB) in four conditions (normal, young, malnutrition, early and late stages).","A total of 1102 images were collected by visiting location of the AMB disease: Normal leaf (190), Young leaf (172), Malnutrition (235), Early stage of AMB (305) and late stage of AMB 200","Precision Accuracy values:
+Hyper-spectral image
+Normal (79%)
+Young (92%)
+Malnutrition (54%) 
+Early stage (91%)
+Late stage (98%)
+
+RGB image
+Normal (25%)
+Young (63%)
+Malnutrition (51%) 
+Early stage (93%)
+Late stage (99%)",N/A
+33,"Karpyshev, P., Ilin, V., Kalinov, I., Petrovsky, A., & Tsetserukou, D. (2021, January).",Autonomous mobile robot for apple plant disease detection based on CNN and multi-spectral vision system.,"Convolutional deep neural network based on the Mask R-CNN framework for classifying and predicting Apple diseases: healthy, apple rust and apple scab.","A total of 6193 images of apple leaves were collected from Kaggle: healthy samples (2515), apple rust (1636), apple scab disease (1835), and mixed disease (206). The dataset was split by the ratio: 0.8:0.1:0.1 for training / validation / test data.","Precision Accuracy values:
+
+Healthy (99%)
+Rust (96%)
+Scab (97%)",N/A
+34,"Hang, J., Zhang, D., Chen, P., Zhang, J., & Wang, B. (2019).",Classification of plant leaf diseases based on improved convolutional neural network.,"A CNN model based on VGG16, Squeeze-and-Excitation (SE) module and Inception structure convolutional layers (compared to others: VG19, GooLeNet, AlexNet, ResNet-50, InceptionV3, InceptionV4 and SENet) for classifying and predicting diseases in Apple (Healthy Apple, Apple Scab general, Apple Scab serious, Apple Frogeye Spot, Cedar Apple Rust general and Cedar Apple Rust serious) and other plants (Cherry and Corn).","After data augmentation, a total of 6108 images from https://challenger.ai/: 5588 images were for the training set and 520 images were for the test set. Healthy Apple (Training -1185 and Testing - 169), Apple Scab general (Training - 844 and Testing - 30), Apple Scab serious (Training - 596 and Testing - 22), Apple Frogeye Spot (Training - 427 and Testing - 61), Cedar Apple Rust general (Training - 142 and Testing - 20) and Cedar Apple Rust serious (Training - 160 and Testing - 11)","Precision Accuracy values:
+
+Healthy Apple: 99%
+Apple Scab general (ASG): 77%
+Apple Scab serious (ASS): 68%
+Apple Frogeye Spot (AFS): 100%
+Cedar Apple Rust general(CARG): 100%
+Cedar Apple Rust serious (CARS): 91%",N/A
+*35.,"Ahmad, N., Asif, H. M. S., Saleem, G., Younus, M. U., Anwar, S., & Anjum, M. R. (2021).",Leaf image-based plant disease identification using color and texture features.,The study was generic on predicting healthy versus diseased plants (Apple and other plants),,,
+36,"Khan, A., Nawaz, U., Ulhaq, A., & Robinson, R. W. (2020).",Real-time plant health assessment via implementing cloud-based scalable transfer learning on AWS DeepLens.,"DeepLens Classification and Detection Model (DCDM) frameworks for classifying and predicting diseases of Apple (Apple Scab, Black Rot, Cedar Apple Rust and Apple Healthy) and other plants’ (grape, peach and strawberry, potato and tomato).","A total of 7,051 of Apple plant leaves images were collected from local farmlands and PlantVillage: Apple Scab (1830), Black Rot (1821), Cedar Apple Rust (1675) and Apple Healthy (1725)","Precision Accuracy values:
+Apple Scab (100%)
+Black Rot (99%)
+Cedar Apple Rust (100%)
+Apple Healthy (100%)",N/A
+*37.,"Hosakoti, R., Kumar, S. P., & Jain, P. (2021).",Disease Detection in Fruits Using Deep Learning.,No explicit analysis on the different diseases related to Apple plants observed,,,
+38,"Khan, M. A., Lali, M. I. U., Sharif, M., Javed, K., Aurangzeb, K., Haider, S. I., ... & Akram, T. (2019).",An optimized method for segmentation and classification of apple diseases based on strong correlation and genetic algorithm based feature selection.,"M-SVM framework for classifying and predicting Apple diseases: healthy leaves, Blackrot, Rust, and Scab.","A total of 3171 images were collected from PlantVillage: healthy leaves (1645), Blackrot (621), Rust (275), and Scab (630).","Precision Accuracy values:
+Healthy leaves (98%),
+Blackrot (99%), 
+Rust (95%) and Scab (97%).",N/A
+*39.,"Wagle, S. A. (2021).",Comparison of Plant Leaf Classification Using Modified AlexNet and Support Vector Machine.,No explicit analysis on the different diseases related to Apple plants observed,,,
+*40.,"Hari, S. S., Sivakumar, M., Renuga, P., & Suriya, S. (2019, March).",Detection of plant disease by leaf image using convolutional neural network.,No explicit analysis on the different diseases related to Apple plants observed,,,
+*41.,"Min, B., Kim, T., Shin, D., & Shin, D. (2023).",Data Augmentation Method for Plant Leaf Disease Recognition.,No explicit analysis on the different diseases related to Apple plants observed,,,
+42,"Nachtigall, L. G., Araujo, R. M., & Nachtigall, G. R. (2016, November).",Classification of apple tree disorders using convolutional neural networks.,"Convolutional Neural Networks (CNN) to classify and predict 6 disorders of Apple: Potassium deficiency, Magnesium deficiency, Scab damage, Glomerella stain, Herbicide damage and Healthy Leaves.","A total of 2539 images were collected from the orchards located in the southern part of Brazil: Potassium deficiency (341), Magnesium deficiency (355), Scab damage (391), Glomerella stain (558), Herbicide damage (325) and Healthy Leaves (569)","Precision Accuracy values:
+
+Glomerella (94%)
+Herbicide (100%)
+Magnesium Def. (94%)
+Potassium Def (100%)
+Scab (93%)
+Healthy Leaves (100%)",N/A
+43,"Khan, M. A., Akram, T., Sharif, M., & Saba, T. (2020).",Fruits diseases classification: exploiting a hierarchical framework for deep features fusion and selection.,"Multi-class SVM framework for classifying and predicting Apple diseases: Apple Black Rot, apple scab, apple rust and other plants (Cherry and Peach). A total of 3170 datasets were collected from PlantVillage.","The datasets were split into training (60%) and testing (40%) samples: Apple Black Rot (ABR) - (Training - 372, and Testing - 248); Apple Scab (A-SCB) - (Training - 378, and Testing - 252); Apple Rust (A-Rust) - (Training - 165, and Testing - 110 ); Apple Healthy (A-H) - (Training - 987, and Testing - 658).","Precision Accuracy values:
+
+Apple Black Rot (ABR) - 99%
+Apple Scab (A-SCB) - 96%
+Apple Rust (A-Rust) - 99%
+Apple Healthy (A-H) - 96%",N/A
+44,"Samajpati, B. J., & Degadwala, S. D. (2016, April).",Hybrid approach for apple fruit diseases detection and classification using random forest classifier.,"Random Forest framework using color features i.e. Global color histogram (GCH), Color coherence vector (CCV) and texture features i.e. Local binary pattern (LBP), complete local binary pattern (CLBP), Local ternary pattern (LTP), Gabor Features. Hence, Gabor+CLBP+LTp compared to other combinations. The framework is intended to classify and predict Apple diseases:
+Apple scab, Apple rot, Normal apple and Apple blotch.",A total of 110 datasets were collected (location - unspecified) 70 images in training dataset and 40 images in testing dataset (10 per class).,"Precision Accuracy values:
+
+Gabor+CLBP+LTp 
+
+Apple scab (80%)
+
+Apple rot (80%)
+
+Normal apple (100%)
+
+Apple blotch (80%)",The limited number of datasets might have resulted in overfitting of the model. There would be need to improve the performance with more datasets
+45,"Vishnoi, V. K., Kumar, K., & Kumar, B. (2021, December).",Crop disease classification through image processing and machine learning techniques using leaf images.,"Random Forest Framework for classifying and predicting Apple diseases (Apple Scab, Black rot, Cedar rust and Healthy) and black gram diseases.","A total of 3,171 images of Apple were collected from 
+PlantVillage: Apple Scab (630), Black rot (621), Cedar rust (275) and Healthy (1645)","Precision Accuracy Values:
+Apple Scab (97%), Black rot (98%), Cedar rust (98%) and Healthy (97%)",N/A
+*46.,"Afifi, A., Alhumam, A., & Abdelwahab, A. (2020).",Convolutional neural network for automatic identification of plant diseases with limited data.,No explicit analysis on the different diseases related to the Apple plants observed,,,
+*47.,"Jarolmasjed, S., Sankaran, S., Marzougui, A., Kostick, S., Si, Y., Quirós Vargas, J. J., & Evans, K. (2019).",High-throughput phenotyping of fire blight disease symptoms using sensing techniques in apple.,No explicit analysis,,,
