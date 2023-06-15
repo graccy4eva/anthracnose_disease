@@ -1,0 +1,201 @@
+S/N,Authors/Year,Title,Framework,Dataset (Quantity and Source),Results,Gaps
+*1.,"Chakraborty, K. K., Mukherjee, R., Chakroborty, C., & Bora, K. (2022)",Automated recognition of optical image based potato leaf blight diseases using deep learning,There was no prediction analysis on how the best model performed in detecting the three classes.,,,
+2,"Yang, Y., Liu, Z., Huang, M., Zhu, Q., & Zhao, X. (2023).",Automatic detection of multi-type defects on potatoes using multispectral imaging combined with a deep learning model,"MDDNet model compared to deep learning models, YOLO-v5x, YOLOv3-tiny, and DY2TNet models for classifying and predicting Potato defects (germinations, scab, bug-eye, dry-rot, and bruise)","The datasets were collected by researchers from the field (China). The dataset consists of: 118 germinations, 219 common scabs, 59 bug-eyes, 83 dry-rots, and 80 bruises.","Precision Accuracy Values:
+Germinations (94%)
+Common scab (94%)
+Bug-eye (90%)
+Dry-rot (91%)
+Bruises (92%)",There were discrepancies in the datasets reported by the paper. It is not certain what the actual total of the datasets was collected.
+*3.,"Oishi, Y., Habaragamuwa, H., Zhang, Y., Sugiura, R., Asano, K., Akai, K., ... & Fujimoto, T. (2021).",Automated abnormal potato plant detection system using deep learning models and portable video cameras.,Predictions were more focused on the quality of the datasets used for the prediction rather than on the model.,,,
+4,"Eser, S. E. R. T. (2021).",A deep learning based approach for the detection of diseases in pepper and potato leaves,"Faster R-CNN (Region-Convolutional Neural Network
+) framework for classifying and predicting Potato diseases: (Potato Early Blight, Potato Late_Blight and Potato Healthy)
+and Pepper disease","Datasets collected were in 2 batches:
+
+Batch 1:
+Originally, 544 datasets were collected from the Plant Village dataset. After transforming the datasets, 2176 images were collected: Pepper Bell Bacterial Spot(460), Pepper Bell Healthy (671), Potato Early Blight (448), Potato Healthy (115) and Potato Late Blight species (482).
+
+Batch 2:
+A total of 6023 pepper and potato leaf images were obtained by combining datasets captured on the field of Malatya and those obtained from the Plant Village dataset. A total of 4627 images from Batch 2 datasets were included in the training and validation process of AlexNet, GoogleNet and SequeezeNet (for the Faster R-CNN model): 3239 images (70%) were used for the training process (Pepper Bell Bacterial Spot - 698, Pepper Bell Healthy - 1035, Potato Early Blight - 700, Potato Healthy - 106 and Potato Late Blight - 700.), while 1388 images (30%) were used for the validation process (Pepper Bell Bacterial Spot - 299, Pepper Bell Healthy - 443, Potato Early Blight - 300, Potato Healthy - 46 and Potato Late Blight - 300) and","Precision Accuracy Values:
+
+Potato Early Blight (99.5%), 
+
+Potato Healthy (99.14%) 
+
+Potato Late Blight (98.92%).","It was not explicit how they arrived at 6048 datasets and the 4628. Given that they specified 6023 and 4627 images for batch 2. Hence, arriving at 1420 images for testing the model Pepper Bell Bacterial Spot - 310, Pepper Bell Healthy - 447, Potato Early Blight - 312, Potato Healthy - 41 and Potato Late Blight - 310."
+5,"Islam, F., Hoq, M. N., & Rahman, C. M. (2019, November).",Application of transfer learning to detect potato disease from leaf image.,The confusion matrix shown was for a CNN model. The paper did not specify how the accuracies varied for VGG16.,,,
+6,"Asif, M. K. R., Rahman, M. A., & Hena, M. H. (2020, December).","CNN based Disease Detection Approach on Potato
+Leaves","CNN model Sequential model 
+was proposed compared to VggNet, ResNet and LeNet for classifying and predicting Potato diseases: early blight, healthy & late blight.","Initially, 3000 images were collected from Kaggle and captured from the field by the researchers. Some of the datasets were selected for training: early blight (500), healthy (500) & late blight (500), and testing: early blight (300), healthy (300) & late blight (300).","Precision Accuracy Values:
+Early Blight (90%)
+Late Blight (80%)
+Healthy (79%)","The dataset used for this analysis is not reasonably safe: The resolution of certain images were too low, some are hardly detected as affected and unaffected"
+7,"Barman, U., Sahu, D., Barman, G. G., & Das, J. (2020, July)","Comparative Assessment of Deep Learning to
+Detect the Leaf Diseases of Potato based on Data
+Augmentation","A Self-Build CNN (SBCNN) for potato
+disease detection: early blight, healthy & late blight.","A total of 2152 images were collected from the plant village dataset: Early blight(1,000), Late Blight (1,000) and Potato Healthy (152). The Augmentation method was applied to the Healthy potato and the sample increased to 1030.","Precision Accuracy Values:
+Early Blight (98%)
+Late Blight (94%)
+Healthy (98%)",N/A
+8,"Rashid, J., Khan, I., Ali, G., Almotiri, S. H., AlGhamdi, M. A., & Masood, K. (2021).","Multi-Level Deep Learning Model for Potato Leaf
+Disease Recognition","Potato Leaf Disease Detection using Convolutional Neural Network (PDDCNN)for classifying and predicting potato diseases: Early Blight, Late Blight and Healthy Potato.",The potato leaf disease dataset contains 4062 images collected from the Central Punjab region of Pakistan,"Precision Accuracy Values with data augmentation:
+Early Blight (100%)
+Late Blight (100%)
+Healthy (99%)",The model is not able to detect multiple diseases on a single leaf and also can not localize the disease.
+*9.,"Polder, G., Blok, P. M., De Villiers, H. A., Van der Wolf, J. M., & Kamp, J. (2019).","Potato Virus Y Detection in Seed
+Potatoes Using Deep Learning on
+Hyperspectral Images",There was no explicit discussion about the methodology.,,,
+10,"Sholihati, R. A., Sulistijono, I. A., Risnumawan, A., & Kusumawati, E. (2020, September)","Potato Leaf Disease Classification
+Using Deep Learning Approach","A deep learning using the VGG16 and VGG19 convolutional neural network architecture model were used for classifying and predicting Potato diseases: Alternaria Solani, Healthy, Phytophthora Infestant, Virus and Insect","A total of 5,100 datasets were collected by authors from different sources: a
+potato plantation in Malang, Indonesia, PlantVillage an
+open-access image database, and Google images.","Precision Accuracy Values:
+
+VGG16
+Alternaria Solani (99%)
+Healthy (87%)
+Phytophthora Infestant (98%)
+Virus (81%)
+Insect (77%)
+
+
+VGG19
+Alternaria Solani (95%)
+Healthy (85%)
+Phytophthora Infestant (97%)
+Virus (84%)
+Insect (85%)",N/A
+*11,"Tiwari, D., Ashish, M., Gangwar, N., Sharma, A., Patel, S., & Bhardwaj, S. (2020, May)","Potato Leaf Diseases Detection Using Deep
+Learning",More focused on comparing algorithms than predicting outcomes of potato diseases,,,
+*12,"Qi, C., Sandroni, M., Westergaard, J. C., Sundmark, E. H. R., Bagge, M., Alexandersson, E., & Gao, J. (2023).",In-field classification of the asymptomatic biotrophic phase of potato late blight based on deep learning and proximal hyperspectral imaging,Predictions were more focused on the quality of the datasets used for the prediction rather than on the model.,,,
+*13,"Johnson, J., Sharma, G., Srinivasan, S., Masakapalli, S. K., Sharma, S., Sharma, J., & Dua, V. K. (2021)","Enhanced Field-Based Detection of Potato Blight in Complex
+Backgrounds Using Deep Learning",Focuses more on detecting Potato blight under different light conditions rather than the generic prediction of the model,,,
+*14.,"Vadivel, B., Thangaraj, R., Pandiyan, P., Aravind, T., Harish, K., & Sivaraman, E. (2022, October)","Deep Learning Models for Potato Leaf Disease
+Identification: A Comparative Analysis",No explicit analysis on the different diseases of Potato observed,,,
+*15.,Wang et.al (2022),"A potato disease identification system
+based on the ResNet model",No explicit analysis on the different diseases of Potato observed,,,
+16,"Shukla, P. K., & Sathiya, S. (2022, June).",Early Detection of Potato Leaf Diseases using Convolutional Neural Network with Web Application,"A Convolutional Neural Network (CNN) was used to classify and predict Potato diseases: Early Blight, Late Blight and Healthy.","The leaf disease dataset contains 2250 images collected in real time and from the Kaggle database: 250 Healthy samples (175 training and 75 testing samples), 1000 samples of Early blight (700 training and 300 testing samples) and 1000 Late Blight samples (700 training and 300 testing samples)","Precision Accuracy Values:
+
+Early Blight (95%),
+Late Blight (97%), and Healthy (100%).",There is every possibility that there was overfitting considering that Healthy samples were less compared to Early and Late Blight yet the precision accuracy is higher.
+*17.,Rozaqi and Synyoto (2020),Identification of diseases in potatoes leaves using Convolutional Neural Network (CNN) Algorithm,No explicit analysis on the different diseases of Potato observed. Accuracies were tailored towards the number of epochs used.,,,
+18,"Islam, M. T., Tusher, A. N., Nanda, P., Verma, V. K., Srivastava, S., Gupta, R. K., & Mazumdar, A. P. (2022)","Automatic Detection of Grape,
+Potato and Strawberry Leaf
+diseases using CNN and Image
+Processing","Convolutional-Neural-Network (CNN) algorithm was used for classifying and predicting potato (Alternaria Blight), Grape and Strawberry","A total of 5400 images were collected from the field: Training set for potato disease: Alternaria (850 images),
+Testing set for potato disease: Alternaria (67 images).",Precision Accuracy for Alternaria (61%),The distribution of the dataset across each disease observed were not consistent with the total number of datasets collected.
+*19.,"Tarik, M. I., Akter, S., Al Mamun, A., & Sattar, A. (2021, February).",Potato Disease Detection Using Machine Learning,No explicit analysis on the different diseases of Potato observed.,,,
+*20,"Baranwal, A., Mishra, M., & Goyal, A. (2022, May).","Potato Plant Disease Classification Through Deep
+Learning",No explicit analysis on the different diseases of Potato observed.,,,
+21,"Chen, W., Chen, J., Zeb, A., Yang, S., & Zhang, D. (2022).","Mobile convolution neural network for the recognition
+of potato leaf disease images","MobOca_Net and MobileNet-V2 for classifying and predicting Potato conditions: Potato healthy, Potato early blight fungus general, Potato early blight fungus serious, Potato late blight fungus serious and Potato late blight fungus general","The sample images of the PlantVillage dataset were collected under controlled
+conditions, both in brightness and grayscale. With the total number of 3246 and is augmented to 5430: Potato healthy (1430), Potato early blight fungus general (1,000), Potato early blight fungus serious (1,000), Potato late blight fungus serious (1,000) and Potato late blight fungus general
+(1,000)","Precision Accuracy Values:
+Potato healthy: 99.75%
+Potato early blight fungus general: 96.79%
+Potato early blight fungus serious:
+ 97.29%
+ Potato late blight fungus serious: 97.29%
+Potato late blight fungus general:
+97.53%",N/A
+22,Kumar and Patel (2021),"Classification and identification of disease in potato
+leaf using hierarchical based deep learning
+convolutional neural network","A Hierarchical Deep Learning Convolutional Neural Network (HDLCNN) was used to classify and predict Potato conditions: Black Spot Bacterial Canker, Botrytis Blight and Early Blight","A total of 962 potato leaf images (for 11 types of diseases) were collected from Kaggle: Black Spot Bacterial Canker (6), Botrytis Blight (10), and Early Blight (177). Other","Precision Accuracy Values:
+
+Black Spot Bacterial Canker (61.6%), Botrytis Blight (99.4%), and Early Blight (80%)",The sample size for this study is very small and the model might be overfitting.
+*23.,Akther et.al,"Transfer learning on VGG16 for the Classification
+of Potato Leaves Infected by Blight Diseases",No explicit analysis on the different diseases of Potato observed.,,,
+24,"Oppenheim, D., Shani, G., Erlich, O., & Tsror, L. (2019)","Using Deep Learning for Image-Based Potato
+Tuber Disease Detection","CNN model was used to classify and predict different potato conditions: Healthy, Black Dots, Black Scurf, Silver Scurf and Common Scab.","A total 0f 400 images of potato tubers were collected on the field by the researchers. After processing the images, a total of 2,465 patches of diseased potato skin were collected: 265 black dot patches, 469 black scurf patches, 686 common scab patches, 738 silver scurf patches, and 307 healthy patches.","Precision Accuracy Values:
+
+Healthy (77%), Black Dots (100%), Black Scurf (100%), Silver Scurf (96%) and Common Scab (93%).","The results also show that the trained CNN can correctly and accurately classify the four diseases presented here. However, visually healthy tubers were harder to classify"
+*25,"Korchagin, S. A., Gataullin, S. T., Osipov, A. V., Smirnov, M. V., Suvorov, S. V., Serdechnyi, D. V., & Bublikov, K. V. (2021).",Development of an optimal algorithm for detecting damaged and diseased potato tubers moving along a conveyor belt using computer vision systems,More focused on comparing algorithms than predicting outcomes of potato diseases,,,
+*26.,"Chakraborty, K. K., Mukherjee, R., Chakroborty, C., & Bora, K. (2022)","Automated recognition of optical image based potato leaf blight diseases
+using deep learning",More focused on comparing algorithms than predicting outcomes of individual potato diseases,,,
+27,"Islam, M., Dinh, A., Wahid, K., & Bhowmik, P. (2017, April).","Detection and Classification of Potato Diseases Potato Using a New Convolution Neural
+Network Architecture
+.","Random Forest framework for classifying and predicting Potato conditions:
+• Early blight affected potato leaf 
+• Late blight affected potato leaf • Healthy or non-diseased potato leaf","A total of 450 images of potato leaves were collected from the plant village database: 150 early blight affected, 150 late blight affected and 150 healthy leaves.","Precision Accuracy Values:
+•Early blight affected potato leaf (100%)
+• Late blight affected potato leaf (91%)
+• Healthy or non-diseased potato leaf (100%)",There is a need to test with more datasets because the small datasets could have caused overfitting of the model.
+28,"Arshaghi, A., Ashourin, M., & Ghabeli, L. (2021).",Detection and Classification of Potato Diseases Potato Using a New Convolution Neural Network Architecture,"Convolution Neural Network (CNN) for classifying and predicting Potato conditions: Leak, Gray Mold, Skin Spot disease Common Scab and Gangrene disease","A total of 5000 potato images were collected from: CFIA database, USDA database and potatoes farms in Ardabil, the city of Iran","Precision Accuracy Values:
+Leak (97%), 
+Gray Mold (100%), 
+Skin Spot disease (100%)
+Common Scab (95%) and Gangrene disease (94%)",There is not much information on how the datasets were distributed across the Potato conditions. This could be unbalanced or balanced and have a great impact on the final accuracy.
+29,"Mahum, R., Munir, H., Mughal, Z. U. N., Awais, M., Sher Khan, F., Saqlain, M., ... & Tlili, I. (2022)","A novel framework for potato leaf disease
+detection using an efficient deep learning model","Efficient DenseNet framework for classifying and predicting Potato diseases: Potato Late Blight (PLB), Potato Early Blight (PEB), Potato Leaf Roll (PLR), Potato Verticillium_wilt (PVw) and Potato Healthy (PH)","A total of 2,152 images were collected from Plant Village Dataset: 1000 images of Potato Late Blight (PLB), 1000 images of Potato Early Blight (PEB) and
+152 images of Potato Healthy (PH)
+In addition, 1700 images were captured from a Potato field having the Potato Healthy (PH) - 200 images, Potato Verticillium_wilt (PVw) - 750 images and Potato Leaf Roll (PLR) - 750 images. Hence, the datasets were split to training and testing sets as follows: PLB (training - 500 and testing - 500); PEB (training - 500 and testing - 500); PLR (training - 625 and testing - 125); PVw (training - 625 and testing - 125); PH (training - 276 and testing - 76);","Precision Accuracy Values:
+
+PLB (97.8%)
+PEB (97.6%)
+PLR (96.8%)
+PVw (97.6%)
+PH (96.1%)",N/A
+30,"Shi, Y., Han, L., Kleerekoper, A., Chang, S., & Hu, T. (2021).",A Novel CropdocNet for Automated Potato Late Blight Disease Detection from the Unmanned Aerial Vehicle-based Hyperspectral Imagery.,A deep learning model (CropdocNet) for classifying and predicting Potato conditions: Healthy potato and Late blight disease,"A total of 1, 200 3D blocks of input patches of hyperspectral images were extracted from the field ( in Guyuan, Hebei province, China) by the researcher: 1, 000 blocks were randomly selected for 5-fold cross validation, and 200 blocks were used as the independent test dataset.","Precision Accuracy Values on test datasets:
+Healthy (97.21%)
+Late Blight Disease (96.14%)",There is not much information on how the datasets were distributed across the Potato conditions. This could be unbalanced or balanced and have a great impact on the final accuracy.
+31,"Arya, S., & Singh, R. (2019, September).",A Comparative Study of CNN and AlexNet for Detection of Disease in Potato and Mango leaf.,CNN and AlexNet architecture classifying and predicting disease in Mango and Potato leaf (Potato Early Blight and Potato Healthy),A total of 4000 images were augmented from original datasets collected from PlantVillage: 80% of images were used as training set and 20% of the images were used as test and validation sets,"Precision Accuracy Values:
+CNN:
+Potato Early Blight (97%) and Potato Healthy (92%)
+
+AlexNet:
+Potato Early Blight (99%) and Potato Healthy (100%)",The distribution of datasets across the diseases was not explicitly stated. This might explain if the model is overfitting or not.
+32,"Sarker, M. R. K. R., Borsha, N. A., Sefatullah, M., Khan, A. R., Jannat, S., & Ali, H. (2022, April).","A Deep Transfer Learning-Based Approach to Detect Potato Leaf Disease at an Earlier Stage. In 2022 Second International Conference on Advances in Electrical, Computing, Communication and Sustainable Technologies","ResNet50 model compared to CNN, and VGG19 and for classifying and predicting Potato diseases: Early Blight Leaves, Late Blight Leaves and Healthy Leaves","A total of 2,152 potato leaf images were collected from Kaggle: Early Blight Leaves (1,000: Training set- 700, Testing set - 150 and Validation set - 150); Late Blight Leaves (1,000: Training set- 700, Testing set - 150 and Validation set - 150); and Healthy Leaves (152: Training set - 106, Testing set - 24 and Validation set - 22)","Precision Accuracy Values:
+Early Blight Leaves (100%), Late Blight Leaves (98%) and Healthy Leaves (99%)",The small datasets for class healthy leaves might have resulted in overfitting of the model.
+*33.,"Kang, F., Li, J., Wang, C., & Wang, F. (2023).",A Lightweight Neural Network-Based Method for Identifying Early-Blight and Late-Blight Leaves of Potato.,More focused on comparing algorithms than predicting outcomes of individual potato diseases,,,
+34,"Afonso, M., Blok, P. M., Polder, G., Van der Wolf, J. M., & Kamp, J. (2019).",Blackleg detection in potato plants using convolutional neural networks.,Two deep convolutional neural networks: ResNet18 and ResNet50 for classifying and predicting Potato conditions: Healthy Potato and Potato Blackleg,A total of 532 images were collected from the field by the researchers: 426 training sets (218 healthy potato and 208 potato blackleg) and a test set of 106 images (60 healthy potato and 46 potato blackleg).,"Precision Accuracy Values:
+ResNet18
+Healthy Potato (94%)
+and Potato Blackleg (95%)
+
+ResNet50
+Healthy Potato (85%)
+and Potato Blackleg (79%)",There is a need to test with more datasets because the small datasets could have caused overfitting of the model.
+*35.,"Patil, P., Yaligar, N., & Meena, S. M. (2017, December).","Comparison of performance of classifiers-svm, rf and ann in potato blight disease detection using leaf images.",More focused on comparing algorithms than predicting outcomes of individual potato diseases,,,
+36,"Hasan, M. Z., Zahan, N., Zeba, N., Khatun, A., & Haque, M. R. (2021).","A Deep Learning-Based Approach for Potato Disease Classification. Computer Vision and Machine Learning in Agriculture, 113-126.","ResNet-50 compared to AlexNet and GoogleNet in classifying and predicting 20 diseases of Potato Tubers: Black dot, Black scurf, Blackleg, Brown rot, Common scab, Gangrene, Late Blight, Dickeya, Pink rot, Dry rot, Powdery scab, Rubbery rot, Ring rot, Skin spot, Silver scurf, Tobacco Rattle Virus, Tobacco Necrosis Virus, Violet root rot, Violet root rot and Wart disease.","A total of 1574 photographs were collected from a field in Bangladesh by the researchers. The dataset was transformed to a total of 7870 images. This dataset was divided into a training set and testing set in a ratio of 80%:20%: Black dot (Training - 256 and Testing - 64), Black scurf (Training - 288 and Testing - 72), Blackleg (Training - 448 and Testing - 112), Brown rot (Training - 384 and Testing - 96), Common scab (Training - 180 and Testing - 45), Gangrene (Training - 372 and Testing - 93), Late Blight (Training - 220 and Testing - 55), Dickeya (Training - 524 and Testing - 131), Pink rot (Training - 348 and Testing - 87), Dry rot (Training - 648 and Testing - 162), Powdery scab (Training - 300 and Testing - 75), Rubbery rot (Training - 116 and Testing - 29), Ring rot (Training - 224 and Testing - 56), Skin spot (Training - 272 and Testing - 68), Silver scurf (Training - 436 and Testing - 109), Tobacco Rattle Virus (Training - 164 and Testing - 41), Tobacco Necrosis Virus (Training - 260 and Testing - 65), Violet root rot (Training - 200 and Testing - 50), Violet root rot (Training - 288 and Testing - 72) and Wart disease (Training - 368 and Testing - 92).","Precision Accuracy Values:
+Black dot (100%), Black scurf (96%), Blackleg (100%), Brown rot (100%), Common scab (100%), Gangrene (100%), Late Blight (100%), Dickeya (100%), Pink rot (100%), Dry rot (95%), Powdery scab (100%), Rubbery rot (100%), Ring rot (100%), Skin spot (100%), Silver scurf (100%), Tobacco Rattle Virus (100%), Tobacco Necrosis Virus (100%), Violet root rot (100%), Violet root rot (100%) and Wart disease (100%).",N/A
+37,"Islam, M., Dinh, A., Wahid, K., & Bhowmik, P. (2017, April)..",Detection of potato diseases using image segmentation and multiclass support vector machine,"Support vector machine (SVM) framework for classifying and predicting Potato conditions: 
+• Late blight affected potato leaf. • Early blight affected potato leaf. • Healthy or Non-diseased potato leaf",A total of 300 images of potato leaves were collected from PlantVillage: 100 healthy leaves and 200 diseased leaves. The datasets were splitted 180 images for the training set (60%) and 120 images for the testing set.,"Precision Accuracy Values:
+
+Late blight (89%)
+Early blight (97%)
+Healthy (98%)",The distribution of datasets across the diseases was not explicitly stated. This might explain if the model is overfitting or not.
+38,"Oppenheim, D., & Shani, G. (2017).",Potato disease classification using convolution neural networks.,"Convolution Neural Network (CNN) for classifying and predicting: Black Scurf disease Silver Scurf disease
+Common Scab Black Dot disease
+Uninfected tuber","A total of 2,465 patches of diseased
+potatoes were collected: 265 Black Dot patches, 469
+Black Scurf patches, 686 Common Scab patches, 738 Silver
+Scurf patches and 307 uninfected patches.","Precision Accuracy Values:
+Black Scurf disease (100%) Silver Scurf disease (96%)
+Common Scab (93%)
+Black Dot disease (100%) and 
+Uninfected tuber (77%)",N/A
+39,"Shukla, P. K., & Sathiya, S. (2022, June).",Early Detection of Potato Leaf Diseases using Convolutional Neural Network with Web Application,"Convolutional Neural Network (CNN) framework for classifying and predicting Potato conditions:Healthy, Early blight and Late blight","A total of 2250 images were collected in real time and from the Kaggle database: 250 Healthy (Training - 175 images and Testing - 75 images), 1,000 Early blight (Training - 700 and Testing - 300) and 1,000 Late blight (Training - 700 and Testing - 300)","Precision Accuracy Values:
+
+Healthy (100%), Early blight (95%) and Late blight (97%)",N/A
+*40.,"Lakshmanarao, A., Babu, M. R., & Kiran, T. S. R. (2021, September).",Plant disease prediction and classification using deep learning ConvNets,"The prediction was based on a combination of all the potato diseases: Healthy, Late and Early Blight rather than on individual performance of the model on each disease of potato.",,,
+41,"Jasim, M. A., & Al-Tuwaijari, J. M. (2020, April).",Plant leaf diseases detection and classification using image processing and deep learning techniques.,"Convolutional neural network (CNN) framework for classifying and predicting Potato (Potato Early Blight, Potato Late Blight and Healthy Potato), Pepper and Tomato diseases:","A total of 20636 images of plants and their diseases were collected from PlantVillage. This is made up of 2152 images of potato conditions: Early Blight (1,000), Late Blight (1,000) and Healthy (152).","Precision Accuracy Values:
+
+Early Blight (99%), Late Blight (96%) and Healthy (98%).",There is a need to test with more datasets because the small datasets could have caused overfitting of the model
+42,"Kukreja, V., Baliyan, A., Salonki, V., & Kaushal, R. K. (2021, August).",Potato blight: deep learning model for binary and multi-classification.,"Convolutional neural network (CNN)-based Deep learning (DL) multi-classification model for classifying binary potato condition: Potato Blight and Healthy
+ and multiple potato conditions: Very early Potato Blight, Early Potato Blight and Middle Potato Blight","A total of 900 images were collected from a potato field of Ludhiana province in Punjab state. The images comprise both healthy and Potato Blight disease images (Very Early, Early, Middle and Late Blight diseases)","Precision Accuracy Values:
+Binary Classification
+Healthy (90.67% )
+Potato Blight disease (90.88% )
+
+Multi Classification
+Very Early (87.17%), 
+Early (85.22%), 
+Middle (86.39% )
+ Late Blight diseases (82.58%)","There are inconsistencies in the datasets reported as 900 images were for both healthy and diseased. Consequently, the 900 images were classified as Very Early, Early, Middle and Late Blight diseases."
+*43.,"Shah, H., Thakkar, H., & Dharmadhikari, S. C. (2022, December).",Potato Leaf Disease Detection using Sequencial Models.,More focused on comparing algorithms than predicting outcomes of individual potato diseases,,,
+*44.,"Arshaghi, A., Ashourian, M., & Ghabeli, L. (2022).",Potato diseases detection and classification using deep learning methods,The classes of the potato diseases with the proposed datasets were different from the classes of potato diseases predicted,,,
+45,"Singh, A., & Kaur, H. (2021).",Potato plant leaves disease detection and classification using machine learning methodologies.,"K-means framework for classifying and predicting Potato conditions:
+ Late Blight 
+ Early Blight Healthy state",A total of 300 potato plant leaves were collected from PlantVillage Dataset: 100 Healthy potato leaves and 200 diseased (Late and Early Blight) potato leaves. The ratio of training to testing datasets was 70% to 30% (210 images: 90 images),"Precision Accuracy values:
+Late Blight (91.07%)
+Early Blight (98.36%)
+Healthy (98.93%)",The distribution of the diseased datasets was not explicitly stated. It is difficult to establish whether the model overfits.
+*46.,"Karthik, K., Rajaprakash, S., Ahmed, S. N., Perincheeri, R., & Alexander, C. R. (2021, November).",Tomato And Potato Leaf Disease Prediction With Health Benefits Using Deep Learning Techniques,More focused on comparing algorithms than predicting outcomes of individual potato diseases,,,
